@@ -683,6 +683,7 @@ cardBack.addEventListener('click', function() {
         cardFace.style.opacity = "0";
         stage = null;
         ancients.forEach(ancient => ancient.classList.remove('ancient_active'));
+        cardFace.src = "";
 
     }  
 });
