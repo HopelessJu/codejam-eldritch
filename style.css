@@ -1,0 +1,271 @@
+body {
+    margin: 0 auto;
+    font-family: 'Rubik Dirt', cursive;
+    color: rgb(215, 215, 215);
+    
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./assets/home.png") ;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.ancient_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ancient {
+    margin-top: 4vh;
+    height:45vh;
+    width: 16.1vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ancient_img {
+    height:45vh;
+    width: 16.1vw;
+}
+
+.azathoth:hover {
+    box-shadow: #966a05 0px 0px 12px 4px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ancient_active {
+    box-shadow: #0d0d0d 0px 0px 15px 10px;
+    transform: scale(1.05);
+
+}
+
+.cthulhu:hover {
+    box-shadow: #b63d06 0px 0px 12px 4px;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.yog_sothoth:hover {
+    box-shadow: #480f04 0px 0px 12px 4px;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.shub_niggurath:hover {
+    box-shadow: #351a54 0px 0px 12px 4px;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.table {
+    display: flex;
+   
+}
+
+.difficulty_container {
+    margin-top: 10vh;
+    margin-left: 6vw;
+    width: 15vw;
+    height: fit-content;
+
+}
+
+.difficulty_lvl {
+    display: flex;
+    justify-content: center;
+    font-size: 20px
+
+}
+
+.difficulty {
+    margin: 2vh auto;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    border: 3px solid  rgb(151, 150, 150);
+}
+
+.super_easy:hover {
+    transform: scale(1.1);
+    color: rgb(101, 205, 243);
+    cursor: pointer;
+    border: 3px solid  rgb(62, 215, 246);
+    box-shadow: #53d3f7 0px 0px 11px 2px;
+}
+
+.SE {
+    transform: scale(1.1);
+    color: rgb(101, 205, 243);
+    border: 3px solid  rgb(62, 215, 246);
+    box-shadow: #53d3f7 0px 0px 11px 2px;
+}
+
+.easy:hover {
+    transform: scale(1.1);
+    color: rgb(122, 250, 122);
+    cursor: pointer;
+    border: 3px solid  rgb(75, 241, 72);
+    box-shadow: #35f524 0px 0px 11px 2px;
+}
+
+.E {
+    transform: scale(1.1);
+    color: rgb(122, 250, 122);
+    border: 3px solid  rgb(75, 241, 72);
+    box-shadow: #35f524 0px 0px 11px 2px;
+
+}
+
+.normal:hover {
+    transform: scale(1.1);
+    color: rgb(246, 238, 99);
+    cursor: pointer;
+    border: 3px solid  rgb(216, 188, 25);
+    box-shadow: #e8e843 0px 0px 11px 2px;
+}
+
+.N {
+    transform: scale(1.1);
+    color: rgb(246, 238, 99);
+    border: 3px solid  rgb(216, 188, 25);
+    box-shadow: #e8e843 0px 0px 11px 2px;
+
+}
+
+.hard:hover {
+    transform: scale(1.1);
+    color: rgb(246, 172, 54);
+    cursor: pointer;
+    border: 3px solid  rgb(249, 130, 11);
+    box-shadow: #da7525 0px 0px 11px 2px;
+}
+
+.H {
+    transform: scale(1.1);
+    color: rgb(246, 172, 54);
+    border: 3px solid  rgb(249, 130, 11);
+    box-shadow: #da7525 0px 0px 11px 2px;
+}
+
+.super_hard:hover {
+    transform: scale(1.1);
+    color: rgb(250, 73, 73);
+    cursor: pointer;
+    border: 3px solid  rgb(236, 13, 13);
+    box-shadow: #f70404 0px 0px 11px 2px;
+}
+
+.SH {
+    transform: scale(1.1);
+    color: rgb(250, 73, 73);
+    border: 3px solid  rgb(236, 13, 13);
+    box-shadow: #f70404 0px 0px 11px 2px;
+
+}
+
+.shuffle_btn {
+    border: 3px solid  rgb(151, 150, 150);
+    width: 12vw;
+    margin-top: 26vh;
+    margin-left: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b7b6b6;
+}
+
+.shuffle_btn:hover {
+    transform: scale(1.1);
+    color: rgb(254, 254, 255);
+    cursor: pointer;
+    border: 3px solid  rgb(203, 203, 206);
+    box-shadow: #cccccd 0px 0px 11px 2px;
+}
+
+.deck {
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+
+.deck_new {
+    margin-top: 10vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.card_back {
+    width: 12vw;
+}
+
+.card_back:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: #9d26cc 0px 0px 11px 2px;
+
+}
+
+.card_face {
+    width: 12vw;
+}
+
+.card_face:hover {
+}
+
+.stages {
+    margin-left: 4vw;
+    margin-top: 10vh;
+}
+
+.stage_container {
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+.stage_container span {
+    color: #b7b6b6;
+}
+.dots_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+    width: 10vw;
+    height: 10vh;
+}
+.dot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #35f524;
+}
+
+.first_stage_green,
+.second_stage_green,
+.third_stage_green {
+    background-color: #33653b;
+}
+
+.first_stage_brown,
+.second_stage_brown,
+.third_stage_brown {
+    background-color: #846a39;
+}
+
+.first_stage_blue,
+.second_stage_blue, 
+.third_stage_blue {
+    background-color: #303798;
+}
